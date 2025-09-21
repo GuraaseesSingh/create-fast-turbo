@@ -1,6 +1,8 @@
 # create-fast-turbo
 
 A cross-platform CLI tool to quickly scaffold a TurboRepo monorepo with pre-configured templates.
+Sole purpose was to speed up setup build turborepo.
+INSTALL: https://www.npmjs.com/package/create-fast-turbo
 
 ## Features
 
