@@ -1,0 +1,32 @@
+{
+  "name": "create-fast-turbo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "bin": {
+    "create-fast-turbo": "./bin/create-fast-turbo.js"
+  },
+  "files": [
+    "bin",
+    "templates"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "turborepo",
+    "cli",
+    "setup",
+    "monorepo",
+    "developer-tooling"
+  ],
+  "author": "Guraasees Singh Taneja",
+  "license": "ISC",
+  "description": "A CLI tool to quickly scaffold a Turborepo with pre-configured templates",
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "fs-extra": "^11.3.2",
+    "inquirer": "^12.9.6",
+    "ora": "^7.0.1"
+  }
+}
